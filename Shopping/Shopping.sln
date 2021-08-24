@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{FAFE3C6E-2D56-4CDD-9CB5-93263FD81211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.API", "Shopping.API\Shopping.API.csproj", "{908C65EA-1BC0-4B34-9D94-6AB6C499C201}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{9492C52D-5FAB-4F21-84FD-890CE633F71C}"
+	ProjectSection(SolutionItems) = preProject
+		mongo-configmap.yaml = mongo-configmap.yaml
+		mongo-secret.yaml = mongo-secret.yaml
+		mongo.yaml = mongo.yaml
+		shoppingapi-configmap.yaml = shoppingapi-configmap.yaml
+		shoppingapi.yaml = shoppingapi.yaml
+		shoppingclient.yaml = shoppingclient.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aks", "aks", "{48F98A87-3BE1-49F2-B2E4-60A0E4EC36AC}"
+	ProjectSection(SolutionItems) = preProject
+		mongo-configmap.yaml = mongo-configmap.yaml
+		mongo-secret.yaml = mongo-secret.yaml
+		mongo.yaml = mongo.yaml
+		shoppingapi-configmap.yaml = shoppingapi-configmap.yaml
+		shoppingapi.yaml = shoppingapi.yaml
+		shoppingclient.yaml = shoppingclient.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAFE3C6E-2D56-4CDD-9CB5-93263FD81211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFE3C6E-2D56-4CDD-9CB5-93263FD81211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFE3C6E-2D56-4CDD-9CB5-93263FD81211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFE3C6E-2D56-4CDD-9CB5-93263FD81211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908C65EA-1BC0-4B34-9D94-6AB6C499C201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908C65EA-1BC0-4B34-9D94-6AB6C499C201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908C65EA-1BC0-4B34-9D94-6AB6C499C201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908C65EA-1BC0-4B34-9D94-6AB6C499C201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962EF76D-7079-434C-8DB3-D85B9B82DAAC}
+	EndGlobalSection
+EndGlobal

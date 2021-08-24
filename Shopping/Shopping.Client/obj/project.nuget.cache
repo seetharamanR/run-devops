@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dHAIVST851ZfDn3i9Ae+e7CA08IZ4WmBLCbFHUoq1NY0DhbciO0Bj8aXt2c7SJ2m19a3jRoRPrbBJcImsyanMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\seetharaman.reddy\\source\\repos\\run-devops\\Shopping\\Shopping.Client\\Shopping.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seetharaman.reddy\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
+    "C:\\Users\\seetharaman.reddy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
