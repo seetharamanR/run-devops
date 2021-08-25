@@ -9,24 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.API", "Shopping.AP
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5F7B07C0-C3BE-4EA0-9D71-F8A8D764E4C1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{9492C52D-5FAB-4F21-84FD-890CE633F71C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aks", "aks", "{73026287-C18B-4A40-93A6-E947C09D919D}"
 	ProjectSection(SolutionItems) = preProject
-		mongo-configmap.yaml = mongo-configmap.yaml
-		mongo-secret.yaml = mongo-secret.yaml
-		mongo.yaml = mongo.yaml
-		shoppingapi-configmap.yaml = shoppingapi-configmap.yaml
-		shoppingapi.yaml = shoppingapi.yaml
-		shoppingclient.yaml = shoppingclient.yaml
+		aks\commands.txt = aks\commands.txt
+		aks\mongo-configmap.yaml = aks\mongo-configmap.yaml
+		aks\mongo-secret.yaml = aks\mongo-secret.yaml
+		aks\mongo.yaml = aks\mongo.yaml
+		aks\shoppingapi-configmap.yaml = aks\shoppingapi-configmap.yaml
+		aks\shoppingapi.yaml = aks\shoppingapi.yaml
+		aks\shoppingclient.yaml = aks\shoppingclient.yaml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aks", "aks", "{48F98A87-3BE1-49F2-B2E4-60A0E4EC36AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{3C670644-2B34-4720-9F5E-6A8F0C7F5AAD}"
 	ProjectSection(SolutionItems) = preProject
-		mongo-configmap.yaml = mongo-configmap.yaml
-		mongo-secret.yaml = mongo-secret.yaml
-		mongo.yaml = mongo.yaml
-		shoppingapi-configmap.yaml = shoppingapi-configmap.yaml
-		shoppingapi.yaml = shoppingapi.yaml
-		shoppingclient.yaml = shoppingclient.yaml
+		k8s\mongo-configmap.yaml = k8s\mongo-configmap.yaml
+		k8s\mongo-secret.yaml = k8s\mongo-secret.yaml
+		k8s\mongo.yaml = k8s\mongo.yaml
+		k8s\shoppingapi-configmap.yaml = k8s\shoppingapi-configmap.yaml
+		k8s\shoppingapi.yaml = k8s\shoppingapi.yaml
+		k8s\shoppingclient.yaml = k8s\shoppingclient.yaml
 	EndProjectSection
 EndProject
 Global
